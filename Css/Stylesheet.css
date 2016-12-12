@@ -1,190 +1,240 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+  
+
+
+@font-face {
+  font-family: 'quatro';
+  src: url('/fonts/quatroslab_regular-webfont.eot');
+  src: url('/fonts/quatroslab_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/quatroslab_regular-webfont.woff2') format('woff2'),
+       url('/fonts/quatroslab_regular-webfont.woff') format('woff'),
+       url('/fonts/quatroslab_regular-webfont.ttf') format('truetype'),
+       url('/fonts/quatroslab_regular-webfont.svg#quatro_slabregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'etica-semibold';
+  src: url('/fonts/lft_etica_semibold-webfont.eot');
+  src: url('/fonts/lft_etica_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/lft_etica_semibold-webfont.woff2') format('woff2'),
+       url('/fonts/lft_etica_semibold-webfont.woff') format('woff'),
+       url('/fonts/lft_etica_semibold-webfont.ttf') format('truetype'),
+       url('/fonts/lft_etica_semibold-webfont.svg#lft_etica_sbsemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'etica';
+  src: url('/fonts/lft_etica_reg-webfont.eot');
+  src: url('/fonts/lft_etica_reg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/lft_etica_reg-webfont.woff2') format('woff2'),
+       url('/fonts/lft_etica_reg-webfont.woff') format('woff'),
+       url('/fonts/lft_etica_reg-webfont.ttf') format('truetype'),
+       url('/fonts/lft_etica_reg-webfont.svg#lft_eticaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
 body{
   background-color: #1a2325;
-    color: white;
-    font-family: "LFT Etica";
-    border-top: 5px solid #f8695a;
-    
+  border-top: 2px solid #f8695a;
 }
+
+
+
+.logo {
+  position: relative;
+}
+
+
+
+
+article{
+  margin: auto;
+    width: 80%;
+    padding-right:5px;
+}
+
+
+article:not(.not){
+  border-top: dotted 1px #31393b;
+
+}
+
+
+
+
 h1{
   font-family: "Quatro Slab";
-  font-size: 36px;
-  padding-top:100px;
-  border-top: 1px dotted #6d7171;
+  font-size:36px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: white;
 }
-p{
-    font-size: 16px;
-    color: #abadad;
-    width: 400px;
-    padding:5px;
-    font-weight: 300;
-    line-height: 22px;
-    position: relative;
-    }
+
+
+
+
+
+.image {
+    border:5px solid white;
+}
+
+
+
+
+.grey {
+  color: #555a5b;
+  font-size: 16px;
+  padding-bottom: 30px;
+  font-family: "LFT Etica";
+
+}
+
+
+
+
+
 h2{
- border-top:1px dotted #6d7171;
- width:400px;
-  margin-top:60px;
+  font-family: "Quatro Slab";
+  font-size: 24px;
+  color: white;
+  display: inline;
+  padding: 20px;
+  line-height: 125px;
+  position: relative;
 }
 
-a{  
-  float:right;
 
-  
 
- }
- .header{    
-  margin-right: auto;
-    margin-left: auto;
-    width: 1100px;}
-  
-.article{
-  overflow: auto;
+p{
+  font-family: "lft Etica"; 
+  font-weight: 400px;
+  font-size:16px;
+  line-height: 20px;
+  color: #6d7171;
+  width: 500px;
+  color: #abadad;
+  padding-bottom: 10px;
+  max-width: 350px;
 }
-.image{
-    float: right;
-    margin-left: 3em;
-    margin-right: auto;
-    border: solid #ffffff 4pt;
 
-}
-.firstp{
-    padding-top: 10px;
-    color: #454a4b;
-}
-.made{
-    text-decoration: none;
-    color: #01ccce;
-    font-size: 16px;
-    font-weight: 300;
-    float:left; 
+
+
+
+button{
+  color: white;
+  border: none;
+  background-color: #01ccce;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: "LFT Etica";
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  margin-top: 40px;
+  text-transform: uppercase;
     
 }
-.button{
-    color: white;
-    width: 80px;
-    background-color: #01ccce;
-    font-family: "LFT Etica";
-    letter-spacing: 1px;
-    font-weight: 600;
-    padding: 15px 30px;
-    font-size: 15px;
-    background: repeating-linear-gradient( 45deg, #01ccce, #01ccce 1px, #01c2c3 1px, #01c2c3 2px );
-    margin-left: 90px;
-    margin-top: -45px;
-    text-decoration: none;
-    position: relative;
-    float:left;
-    
+
+.button:hover{
+  background-color: #028f90;
 }
-.buy{
-    font-family: "Quatro Slab";
-    font-size: 36px;
-    padding-top: 50px;
 
 
 
+
+.check {
+  color: #01bfc1;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 145px;
+  border-bottom: 1px dotted #31393b;
+  text-decoration: none;
 }
+
+
+
+
+.check:hover
+{
+  color: #028f90;
+}
+
+
+
+
 @media (max-width: 779px) {
-body{
-  padding-bottom:20px;
-    
-}
-h1{
-  padding-bottom:20px;
-}
-p{
+  .image{
+    width:80%;
+  }
+  article{
     padding-bottom:20px;
-    }
-h2{
- padding-bottom:20px;}
-
-a{  
-  padding-bottom:20px;
-
-  
-
- }
- .header{    
-  width: 80%;}
-
-.article{
-
- width: 80%;
-}
-.image{
-    width: 80%;
-
-}
-.firstp{
-   width: 80%;
-}
-.made{
-    width: 80%;
-    
-}
-.button{
-    width: 80%;
-    
-}
-.buy{
-    width: 80%;}
-
-@media (min-width: 780px) 
-{body{
- padding-bottom: 300px;
-        max-width:1050px;
-    
-}
-h1{
-  padding-bottom: 300px;
-        max-width:1050px;
-}
-p{
-    padding-bottom: 300px;
-        max-width:1050px;
-    }
-h2{
- padding-bottom: 300px;
-        max-width:1050px;
+  }
 }
 
-a{  
-  padding-bottom: 300px;
-        max-width:1050px;
-
-  
-
- }
- .header{    
-  float:right;
-        width: calc(100% - 500px)}
-  
-.article{
-  float:right;
-        width: calc(100% - 500px)
-}
-.image{
-   float:right;
-        width: calc(100% - 500px)
-
-}
-.firstp{
-   float:right;
-        width: calc(100% - 500px)
-}
-.made{
-   float:right;
-        width: calc(100% - 500px)
-    
-}
-.button{
+@media (min-width: 780px) {
+  .image{
     float:right;
-        width: calc(100% - 500px)
+      width: calc(100% - 500px)
 }
-.buy{
-   float:right;
-        width: calc(100% - 500px)
-
+  article{
+    padding-bottom: 300px;
+    max-width:1050px;
+  }
 
 }
-   
