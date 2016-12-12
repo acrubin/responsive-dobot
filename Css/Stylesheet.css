@@ -81,8 +81,110 @@ a{
     font-size: 36px;
     padding-top: 50px;
 
+
+
+}
+@media (max-width: 779px) {
+body{
+  padding-bottom:20px;
     
 }
+h1{
+  padding-bottom:20px;
+}
+p{
+    padding-bottom:20px;
+    }
+h2{
+ padding-bottom:20px;}
+
+a{  
+  padding-bottom:20px;
+
+  
+
+ }
+ .header{    
+  width: 80%;}
+
+.article{
+
+ width: 80%;
+}
+.image{
+    width: 80%;
+
+}
+.firstp{
+   width: 80%;
+}
+.made{
+    width: 80%;
+    
+}
+.button{
+    width: 80%;
+    
+}
+.buy{
+    width: 80%;}
+
+@media (min-width: 780px) 
+{body{
+ padding-bottom: 300px;
+        max-width:1050px;
+    
+}
+h1{
+  padding-bottom: 300px;
+        max-width:1050px;
+}
+p{
+    padding-bottom: 300px;
+        max-width:1050px;
+    }
+h2{
+ padding-bottom: 300px;
+        max-width:1050px;
+}
+
+a{  
+  padding-bottom: 300px;
+        max-width:1050px;
+
+  
+
+ }
+ .header{    
+  float:right;
+        width: calc(100% - 500px)}
+  
+.article{
+  float:right;
+        width: calc(100% - 500px)
+}
+.image{
+   float:right;
+        width: calc(100% - 500px)
+
+}
+.firstp{
+   float:right;
+        width: calc(100% - 500px)
+}
+.made{
+   float:right;
+        width: calc(100% - 500px)
+    
+}
+.button{
+    float:right;
+        width: calc(100% - 500px)
+}
+.buy{
+   float:right;
+        width: calc(100% - 500px)
 
 
-
+}
+   
